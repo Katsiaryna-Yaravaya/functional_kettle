@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+}
+
+.kettle-container {
+    position: relative;
+    width: 200px;
+}
+
+.water-level {
+    position: absolute;
+    bottom: 64px;
+    left: 0;
+    border-radius: 6px 12px 47px 48px;
+    width: 87%;
+    background-color: blue;
+    transform-origin: bottom;
+    transition: height 1s ease;
+}
+
+span {
+    color: blue;
+    font-size: 24px;
+}
